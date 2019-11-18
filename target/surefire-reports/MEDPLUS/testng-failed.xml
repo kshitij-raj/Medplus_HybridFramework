@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MEDPLUS]">
+  <listeners>
+    <listener class-name="com.MedPlus.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="browser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MedPlus.TestCases.TC_pharmacyDDT_003">
+        <methods>
+          <include name="pharmacy1"/>
+          <include name="terminate"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.MedPlus.TestCases.TC_pharmacyDDT_003 -->
+      <class name="com.MedPlus.TestCases.TC_Redeem_Reward">
+        <methods>
+          <include name="terminate"/>
+          <include name="red"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.MedPlus.TestCases.TC_Redeem_Reward -->
+    </classes>
+  </test> <!-- browser(failed) -->
+</suite> <!-- Failed suite [MEDPLUS] -->
