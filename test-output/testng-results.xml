@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MEDPLUS" duration-ms="122018" started-at="2019-11-16T09:25:38Z" finished-at="2019-11-16T09:27:40Z">
+    <groups>
+    </groups>
+    <test name="browser" duration-ms="122018" started-at="2019-11-16T09:25:38Z" finished-at="2019-11-16T09:27:40Z">
+      <class name="com.MedPlus.TestCases.TC_pharmacyDDT_003">
+        <test-method status="PASS" signature="intialize(java.lang.String)[pri:0, instance:com.MedPlus.TestCases.TC_pharmacyDDT_003@1e88b3c]" name="intialize" is-config="true" duration-ms="8111" started-at="2019-11-16T14:55:38Z" finished-at="2019-11-16T14:55:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="pharmacy1()[pri:0, instance:com.MedPlus.TestCases.TC_pharmacyDDT_003@1e88b3c]" name="pharmacy1" duration-ms="47605" started-at="2019-11-16T14:55:46Z" finished-at="2019-11-16T14:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pharmacy1 -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.MedPlus.TestCases.TC_pharmacyDDT_003@1e88b3c]" name="terminate" is-config="true" duration-ms="2048" started-at="2019-11-16T14:56:34Z" finished-at="2019-11-16T14:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.MedPlus.TestCases.TC_pharmacyDDT_003 -->
+      <class name="com.MedPlus.TestCases.TC_Redeem_Reward">
+        <test-method status="PASS" signature="intialize(java.lang.String)[pri:0, instance:com.MedPlus.TestCases.TC_Redeem_Reward@42d80b78]" name="intialize" is-config="true" duration-ms="9286" started-at="2019-11-16T14:56:36Z" finished-at="2019-11-16T14:56:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="red()[pri:0, instance:com.MedPlus.TestCases.TC_Redeem_Reward@42d80b78]" name="red" duration-ms="49164" started-at="2019-11-16T14:56:45Z" finished-at="2019-11-16T14:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- red -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.MedPlus.TestCases.TC_Redeem_Reward@42d80b78]" name="terminate" is-config="true" duration-ms="5496" started-at="2019-11-16T14:57:35Z" finished-at="2019-11-16T14:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.MedPlus.TestCases.TC_Redeem_Reward -->
+    </test> <!-- browser -->
+  </suite> <!-- MEDPLUS -->
+</testng-results>

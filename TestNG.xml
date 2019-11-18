@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDPLUS">
+<listeners>
+<listener class-name="com.MedPlus.Utilities.Reporting" /> 
+
+</listeners>
+
+<test name="browser" >
+<parameter name="browser" value="firefox" />
+<classes>
+
+
+<class name="com.MedPlus.TestCases.TC_pharmacyDDT_003"/>
+<class name="com.MedPlus.TestCases.TC_Redeem_Reward"/>
+<!--  <class name="com.MedPlus.TestCases.TC_Promotions"/>
+<class name="com.MedPlus.TestCases.TC_PromotionLinks"/>
+<class name="com.MedPlus.TestCases.TC_Coupon_001"/>
+<class name="com.MedPlus.TestCases.TC_PurchaseHistory"/>
+<class name="com.MedPlus.TestCases.TC_Auto_001"/>
+<class name="com.MedPlus.TestCases.TC_Search_001"/>
+<class name="com.MedPlus.TestCases.TC_Viewcart" /> 
+<class name="com.MedPlus.TestCases.TC_addtowishlist" /> 
+<class name="com.MedPlus.TestCases.TC_AllPromotions" /> 
+<class name="com.MedPlus.TestCases.TC_PromotionsRadiobutton" /> 
+<class name="com.MedPlus.TestCases.TC_footer" /> 
+<class name="com.MedPlus.TestCases.TC_addtocart" /> 
+<class name="com.MedPlus.TestCases.TC_MedplusLab" />
+  <class name="com.MedPlus.TestCases.TC_medpluslens" />
+  <class name="com.MedPlus.TestCases.TC_MycouponEdit" />
+  <class name="com.MedPlus.TestCases.TC_wishlist" />
+  <class name="com.MedPlus.TestCases.TC_Wallet" />
+  <class name="com.MedPlus.TestCases.TC_LocateStore_001" />
+  <class name="com.MedPlus.TestCases.T_healthlife" />
+  <class name="com.MedPlus.TestCases.TC_LoginDDT_002" />
+  <class name="com.MedPlus.TestCases.TC_LocateMe_001" />
+    <class name="com.MedPlus.TestCases.TC_Register_001" />-->
+</classes>
+</test>
+
+</suite>
